@@ -1,0 +1,31 @@
+/* custom.css: additive only. Nothing here changes Bootstrap's own classes */
+
+.font-xp{font-family:'Plus Jakarta Sans',system-ui,sans-serif}
+.xp-display{font-family:'Fredoka',system-ui,sans-serif}
+.hl{color:var(--bs-warning);-webkit-text-stroke:1px var(--bs-emphasis-color)}
+.quest-card{cursor:pointer;transition:transform .15s}
+.quest-card:hover{transform:translateY(-2px)}
+section[id]{scroll-margin-top:72px}
+@media (prefers-reduced-motion:reduce){.quest-card{transition:none}}
+
+/* ---- pink (only active when data-bs-theme="pink") ---- */
+[data-bs-theme="pink"]{
+  --bs-body-bg:#FFF0F6; --bs-body-color:#3B1030;
+  --bs-secondary-color:rgba(59,16,48,.7); --bs-secondary-bg:#FFE0EC; --bs-tertiary-bg:#FFE8F1;
+  --bs-border-color:#F5B8D0; --bs-emphasis-color:#3B1030;
+  --bs-primary:#D6336C; --bs-primary-rgb:214,51,108; --bs-link-color-rgb:214,51,108;
+  /* Bootstrap */
+  --bs-body-bg-rgb:255,240,246; --bs-body-color-rgb:59,16,48; --bs-emphasis-color-rgb:59,16,48;
+  --bs-secondary-bg-rgb:255,224,236; --bs-tertiary-bg-rgb:255,232,241; --bs-secondary-color-rgb:59,16,48;
+}
+[data-bs-theme="pink"] .card,
+[data-bs-theme="pink"] .modal-content,
+[data-bs-theme="pink"] .accordion,
+[data-bs-theme="pink"] .dropdown-menu,
+[data-bs-theme="pink"] .list-group{
+  --bs-card-bg:#FFF; --bs-modal-bg:#FFF; --bs-accordion-bg:#FFF; --bs-dropdown-bg:#FFF; --bs-list-group-bg:#FFF;
+}
+[data-bs-theme="pink"] .btn-primary{--bs-btn-bg:#D6336C;--bs-btn-border-color:#D6336C;--bs-btn-hover-bg:#B02558;--bs-btn-hover-border-color:#B02558}
+[data-bs-theme="pink"] .btn-outline-primary{--bs-btn-color:#D6336C;--bs-btn-border-color:#D6336C;--bs-btn-hover-bg:#D6336C;--bs-btn-hover-border-color:#D6336C;--bs-btn-active-bg:#D6336C}
+[data-bs-theme="pink"] .dropdown-item.active{background:#D6336C;color:#fff}
+[data-bs-theme="pink"] .progress-bar.bg-warning{color:#000}

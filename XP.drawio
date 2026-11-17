@@ -1,0 +1,612 @@
+<mxfile host="app.diagrams.net" pages="5">
+  <diagram name="USERDES Flowchart" id="CuSXz90F_BQ43VCUfHRe">
+    <mxGraphModel dx="1884" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="START: XP Quest Board (USERDES)" vertex="1">
+          <mxGeometry height="50" width="360" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=12;fillColor=#E4F0FC;strokeColor=#3D8FD6;fontColor=#211F3D;align=left;spacingLeft=10;" value="&lt;b&gt;USER&lt;/b&gt;&lt;br&gt;Students and young adults in the Philippines with about 6 free hours a week who want to earn, volunteer or upskill" vertex="1">
+          <mxGeometry height="80" width="360" x="300" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=12;fillColor=#E4F0FC;strokeColor=#3D8FD6;fontColor=#211F3D;align=left;spacingLeft=10;" value="&lt;b&gt;NEEDS &amp;amp; PROBLEMS&lt;/b&gt;&lt;br&gt;• Opportunities scattered across posts and chats&lt;br&gt;• Hard to tell paid / free / fee-based apart&lt;br&gt;• Little time: must filter by hours and location" vertex="1">
+          <mxGeometry height="100" width="360" x="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-4" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=12;fillColor=#E1F5EE;strokeColor=#2FAE8B;fontColor=#211F3D;align=left;spacingLeft=10;" value="&lt;b&gt;GOALS&lt;/b&gt;&lt;br&gt;Find a fitting quest in under a minute, know cost or pay up front, feel rewarded for finishing" vertex="1">
+          <mxGeometry height="80" width="360" x="300" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-5" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=12;fillColor=#E1F5EE;strokeColor=#2FAE8B;fontColor=#211F3D;align=left;spacingLeft=10;" value="&lt;b&gt;DESIGN DECISIONS&lt;/b&gt;&lt;br&gt;Translate needs and goals into the wireframe" vertex="1">
+          <mxGeometry height="64" width="360" x="300" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-6" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;fontColor=#211F3D;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;Decisions&lt;/b&gt;&lt;br&gt;1. Hero + profile card shows progress&lt;br&gt;2. Color-coded tiers (blue paid, green free, red premium)&lt;br&gt;3. Filters above results, instant update&lt;br&gt;4. Confirm modal + restore list for undo&lt;br&gt;5. Bold first two words of titles (Clarence)&lt;br&gt;6. Restore-deleted on main board (Nethan)&lt;br&gt;7. Dark mode" vertex="1">
+          <mxGeometry height="170" width="300" x="710" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-7" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=12;fillColor=#E7EAF7;strokeColor=#4A4E9E;fontColor=#211F3D;align=left;spacingLeft=10;" value="&lt;b&gt;SITEMAP&lt;/b&gt;&lt;br&gt;Home (Hero + Profile) → How it works → Quest Board → Add Quest → Footer" vertex="1">
+          <mxGeometry height="70" width="360" x="300" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-8" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=12;fillColor=#E7EAF7;strokeColor=#4A4E9E;fontColor=#211F3D;align=left;spacingLeft=10;" value="&lt;b&gt;BUILD WITH BOOTSTRAP 5&lt;/b&gt;&lt;br&gt;12 components + utilities, custom.css for brand colors" vertex="1">
+          <mxGeometry height="70" width="360" x="300" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-9" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=12;fillColor=#FFF7E0;strokeColor=#F5B942;fontColor=#211F3D;align=left;spacingLeft=10;" value="&lt;b&gt;EVALUATE&lt;/b&gt;&lt;br&gt;Test with 3 to 5 classmates: find a free quest under 3 hrs, post a custom quest, delete and restore one. Record time and errors" vertex="1">
+          <mxGeometry height="90" width="360" x="300" y="814" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-10" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rhombus;fillColor=#FCE4EC;strokeColor=#E85480;fontColor=#211F3D;" value="All tasks done quickly&lt;br&gt;with no errors?" vertex="1">
+          <mxGeometry height="110" width="300" x="330" y="944" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-11" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=12;fillColor=#FCE4EC;strokeColor=#E85480;fontColor=#211F3D;align=left;spacingLeft=10;" value="&lt;b&gt;ITERATE&lt;/b&gt;&lt;br&gt;Fix the problems found and update the design" vertex="1">
+          <mxGeometry height="80" width="200" x="20" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-12" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;strokeWidth=2;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="SUBMIT: HTML files, USERDES, Word doc, video" vertex="1">
+          <mxGeometry height="50" width="360" x="300" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-13" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-14" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-15" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-16" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-17" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-18" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-19" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-20" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-21" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;" target="SiKDRpSCKRkWt_P-Qd1S-12" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-22" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="SiKDRpSCKRkWt_P-Qd1S-11" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-23" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;exitX=0.5;exitY=0;entryX=0;entryY=0.5;dashed=1;" target="SiKDRpSCKRkWt_P-Qd1S-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiKDRpSCKRkWt_P-Qd1S-24" edge="1" parent="1" source="SiKDRpSCKRkWt_P-Qd1S-5" style="endArrow=none;dashed=1;html=1;strokeColor=#F5B942;strokeWidth=2;" target="SiKDRpSCKRkWt_P-Qd1S-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="1. App flow" id="2Io9qL9eM-eEkOkq_YiT">
+    <mxGraphModel dx="2708" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="START: Open XP" vertex="1">
+          <mxGeometry height="50" width="280" x="410" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="board" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Quest board loads&lt;/b&gt;&lt;br&gt;Live quest count and total XP shown; cards sorted by highest XP first" vertex="1">
+          <mxGeometry height="70" width="280" x="410" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="filter" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Filter the board&lt;/b&gt;&lt;br&gt;Tier (All / Paid / Free / Premium), location, hours free" vertex="1">
+          <mxGeometry height="64" width="280" x="410" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rhombus;fillColor=#FCE4EC;strokeColor=#E85480;" value="Any quests match?" vertex="1">
+          <mxGeometry height="110" width="280" x="410" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="empty" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Empty state&lt;/b&gt;&lt;br&gt;No quests match. Widen the filters" vertex="1">
+          <mxGeometry height="60" width="240" x="770" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="card" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Open a quest card&lt;/b&gt;&lt;br&gt;Details modal: organizer, tier, hours, XP, money" vertex="1">
+          <mxGeometry height="70" width="280" x="410" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rhombus;fillColor=#FCE4EC;strokeColor=#E85480;" value="Fits your budget and schedule?" vertex="1">
+          <mxGeometry height="110" width="280" x="410" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="close" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Close the modal&lt;/b&gt;&lt;br&gt;Keep browsing" vertex="1">
+          <mxGeometry height="60" width="240" x="770" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="acc" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Tap Accept quest &amp;amp; start&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="410" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="toast" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Toast confirms&lt;/b&gt;&lt;br&gt;Quest joins Active side quests" vertex="1">
+          <mxGeometry height="60" width="280" x="410" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rhombus;fillColor=#FCE4EC;strokeColor=#E85480;" value="Which tier?" vertex="1">
+          <mxGeometry height="110" width="280" x="410" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="pa" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFE9A8;strokeColor=#F5B942;fontStyle=1;" value="&lt;b&gt;PAID&lt;/b&gt;&lt;br&gt;Organizer pays you directly after the task (see page 2)" vertex="1">
+          <mxGeometry height="80" width="240" x="130" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="fr" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#E1F5EE;strokeColor=#2FAE8B;" value="&lt;b&gt;FREE&lt;/b&gt;&lt;br&gt;Task for fun. XP only, no money (see page 3)" vertex="1">
+          <mxGeometry height="80" width="240" x="430" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="pr" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FCE4EC;strokeColor=#E85480;" value="&lt;b&gt;PREMIUM&lt;/b&gt;&lt;br&gt;You pay the entry fee to the organizer first (see page 3)" vertex="1">
+          <mxGeometry height="80" width="240" x="730" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="done" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Quest completed&lt;/b&gt;&lt;br&gt;XP awarded, profile bar grows, wallet shows any money in or out" vertex="1">
+          <mxGeometry height="80" width="280" x="410" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="e" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="END: Pick the next quest" vertex="1">
+          <mxGeometry height="50" width="280" x="410" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="side" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;Other actions on the board&lt;/b&gt;&lt;br&gt;Post a custom quest, delete and restore quests, edit profile, switch dark mode (page 4)" vertex="1">
+          <mxGeometry height="100" width="280" x="70" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="ed1" edge="1" parent="1" source="s" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="board" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed2" edge="1" parent="1" source="board" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="filter" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed3" edge="1" parent="1" source="filter" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="d1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed4" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="card" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5" edge="1" parent="1" source="card" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="d2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed6" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="acc" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed7" edge="1" parent="1" source="acc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="toast" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed8" edge="1" parent="1" source="toast" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="d3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed9" edge="1" parent="1" source="d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;" target="pa" value="Paid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed10" edge="1" parent="1" source="d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="fr" value="Free">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed11" edge="1" parent="1" source="d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;" target="pr" value="Premium">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed12" edge="1" parent="1" source="pa" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;" target="done" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed13" edge="1" parent="1" source="fr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="done" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed14" edge="1" parent="1" source="pr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;entryX=1;entryY=0.5;" target="done" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed15" edge="1" parent="1" source="done" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="e" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed16" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;" target="empty" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed17" edge="1" parent="1" source="empty" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=1;entryY=0.35;" target="filter" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed18" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;" target="close" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed19" edge="1" parent="1" source="close" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=1;entryY=0.75;" target="filter" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwnlxlbZY_C-X2L23LZg-1" edge="1" parent="1" source="board" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;" target="side">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2. Paid quest example" id="NB7c5HtEVyF9NQWVw7bh">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;Example task: Paid AI &amp;amp; Tech Seminar Assistant&lt;/b&gt;&lt;br&gt;Organizer: Tech Summit PH  |  Pay: ₱750  |  Time: 6 hrs  |  Reward: +250 XP  |  Location: local" vertex="1">
+          <mxGeometry height="70" width="960" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lb0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#3D8FD6;strokeColor=#3D8FD6;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;User (student)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lane0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E4F0FC;strokeColor=#3D8FD6;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1354" width="300" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="lb1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#4A4E9E;strokeColor=#4A4E9E;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;XP app&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="360" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lane1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E7EAF7;strokeColor=#4A4E9E;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1354" width="300" x="360" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="lb2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#2FAE8B;strokeColor=#2FAE8B;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;Tech Summit PH (third party)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="680" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E1F5EE;strokeColor=#2FAE8B;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1354" width="300" x="680" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3D8FD6;" value="&lt;b&gt;Open the quest card&lt;/b&gt; and tap &lt;b&gt;Accept quest &amp;amp; start&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="70" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Request recorded&lt;/b&gt;&lt;br&gt;Toast confirms. Status: Pending. Student&#39;s name and contact go to the organizer" vertex="1">
+          <mxGeometry height="80" width="240" x="390" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2FAE8B;" value="&lt;b&gt;Organizer reviews&lt;/b&gt; the request and checks slot availability" vertex="1">
+          <mxGeometry height="60" width="240" x="710" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rhombus;fillColor=#FCE4EC;strokeColor=#E85480;" value="Slot confirmed?" vertex="1">
+          <mxGeometry height="100" width="240" x="710" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Status: Declined&lt;/b&gt;&lt;br&gt;Quest returns to the board" vertex="1">
+          <mxGeometry height="60" width="240" x="390" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3D8FD6;" value="&lt;b&gt;Pick another quest&lt;/b&gt; from the board" vertex="1">
+          <mxGeometry height="60" width="240" x="70" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Status: Confirmed&lt;/b&gt;&lt;br&gt;Date, venue and organizer contact shown" vertex="1">
+          <mxGeometry height="70" width="240" x="390" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3D8FD6;" value="&lt;b&gt;Attend the seminar&lt;/b&gt; and handle registration logistics (6 hrs)" vertex="1">
+          <mxGeometry height="70" width="240" x="70" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2FAE8B;" value="&lt;b&gt;Organizer verifies&lt;/b&gt; attendance and the work done" vertex="1">
+          <mxGeometry height="60" width="240" x="710" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rhombus;fillColor=#FCE4EC;strokeColor=#E85480;" value="Work completed?" vertex="1">
+          <mxGeometry height="100" width="240" x="710" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="x1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;No payout, no XP&lt;/b&gt;&lt;br&gt;Organizer and student settle it directly" vertex="1">
+          <mxGeometry height="70" width="240" x="390" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFE9A8;strokeColor=#F5B942;fontStyle=1;" value="&lt;b&gt;PAYOUT: organizer pays ₱750 directly to the student&lt;/b&gt;&lt;br&gt;Bank transfer or e-wallet (e.g. GCash)" vertex="1">
+          <mxGeometry height="90" width="240" x="710" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3D8FD6;" value="&lt;b&gt;Student receives ₱750&lt;/b&gt; and confirms receipt in XP" vertex="1">
+          <mxGeometry height="60" width="240" x="70" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Quest Completed&lt;/b&gt;&lt;br&gt;+250 XP, wallet +₱750, level progress bar updates" vertex="1">
+          <mxGeometry height="80" width="240" x="390" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="END" vertex="1">
+          <mxGeometry height="40" width="240" x="390" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="ed1" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed2" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="a3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed3" edge="1" parent="1" source="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="d1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed4" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="n1" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="n2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed6" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="b1" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed7" edge="1" parent="1" source="b1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="b2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed8" edge="1" parent="1" source="b2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="b3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed9" edge="1" parent="1" source="b3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="d2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed10" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="x1" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed11" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c1" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed12" edge="1" parent="1" source="c1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed13" edge="1" parent="1" source="c2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="c3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed14" edge="1" parent="1" source="c3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="side" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;Who pays whom&lt;/b&gt;&lt;br&gt;XP never holds or sends the money. The third party (Tech Summit PH) pays the student directly. XP only tracks the quest status, awards XP and updates the wallet display.&lt;br&gt;&lt;br&gt;&lt;i&gt;Assumption: payout method and timing follow the organizer&#39;s own terms.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="1020" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3. Free &amp; Premium quests" id="YSHY2gW2pa6jj7mYbS7z">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f_title" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;FREE example: Weekend Market Cleanup &amp;amp; Stroll&lt;/b&gt;&lt;br&gt;Organizer: Neighborhood Council  |  Pay: none  |  Time: 2 hrs  |  Reward: +90 XP" vertex="1">
+          <mxGeometry height="70" width="960" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f_lb0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#3D8FD6;strokeColor=#3D8FD6;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;User (student)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="f_lane0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E4F0FC;strokeColor=#3D8FD6;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="614" width="300" x="40" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="f_lb1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#4A4E9E;strokeColor=#4A4E9E;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;XP app&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="360" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="f_lane1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E7EAF7;strokeColor=#4A4E9E;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="614" width="300" x="360" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="f_lb2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#2FAE8B;strokeColor=#2FAE8B;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;Neighborhood Council (third party)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="680" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="f_lane2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E1F5EE;strokeColor=#2FAE8B;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="614" width="300" x="680" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="f_1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3D8FD6;" value="&lt;b&gt;Accept quest &amp;amp; start&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="70" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f_2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Status: Pending&lt;/b&gt;&lt;br&gt;Organizer notified" vertex="1">
+          <mxGeometry height="60" width="240" x="390" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="f_3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2FAE8B;" value="&lt;b&gt;Organizer confirms&lt;/b&gt; the volunteer slot" vertex="1">
+          <mxGeometry height="60" width="240" x="710" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="f_4" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3D8FD6;" value="&lt;b&gt;Do the task&lt;/b&gt;: coordinate community stalls (2 hrs)" vertex="1">
+          <mxGeometry height="60" width="240" x="70" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="f_5" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2FAE8B;" value="&lt;b&gt;Organizer confirms completion&lt;/b&gt;. No payment involved" vertex="1">
+          <mxGeometry height="60" width="240" x="710" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="f_6" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Quest Completed&lt;/b&gt;&lt;br&gt;+90 XP. Wallet unchanged" vertex="1">
+          <mxGeometry height="60" width="240" x="390" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="ed1" edge="1" parent="1" source="f_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="f_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed2" edge="1" parent="1" source="f_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="f_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed3" edge="1" parent="1" source="f_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="f_4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed4" edge="1" parent="1" source="f_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="f_5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5" edge="1" parent="1" source="f_5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="f_6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_title" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;PREMIUM example: Weekend UX Design Bootcamp&lt;/b&gt;&lt;br&gt;Organizer: XP Skill Academy  |  Entry fee: ₱450  |  Time: 16 hrs  |  Reward: +400 XP" vertex="1">
+          <mxGeometry height="70" width="960" x="40" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="m_lb0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#3D8FD6;strokeColor=#3D8FD6;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;User (student)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="40" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="m_lane0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E4F0FC;strokeColor=#3D8FD6;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="734" width="300" x="40" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="m_lb1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#4A4E9E;strokeColor=#4A4E9E;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;XP app&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="360" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="m_lane1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E7EAF7;strokeColor=#4A4E9E;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="734" width="300" x="360" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="m_lb2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#2FAE8B;strokeColor=#2FAE8B;fontColor=#FFFFFF;fontSize=13;" value="&lt;b&gt;XP Skill Academy (third party)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="300" x="680" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="m_lane2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;fillColor=#E1F5EE;strokeColor=#2FAE8B;dashed=1;fillOpacity=45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="734" width="300" x="680" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="m_1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3D8FD6;" value="&lt;b&gt;Accept quest&lt;/b&gt; and review the ₱450 entry fee" vertex="1">
+          <mxGeometry height="60" width="240" x="70" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="m_2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFE9A8;strokeColor=#F5B942;fontStyle=1;" value="&lt;b&gt;PAY: student pays ₱450 directly to the organizer&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="240" x="70" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="m_3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2FAE8B;" value="&lt;b&gt;Organizer confirms&lt;/b&gt; registration and payment" vertex="1">
+          <mxGeometry height="60" width="240" x="710" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="m_4" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Status: Confirmed&lt;/b&gt;&lt;br&gt;Schedule shown" vertex="1">
+          <mxGeometry height="60" width="240" x="390" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="m_5" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3D8FD6;" value="&lt;b&gt;Attend the bootcamp&lt;/b&gt; (16 hrs)" vertex="1">
+          <mxGeometry height="50" width="240" x="70" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="m_6" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2FAE8B;" value="&lt;b&gt;Organizer verifies completion&lt;/b&gt; (case study / certificate)" vertex="1">
+          <mxGeometry height="60" width="240" x="710" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="m_7" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="&lt;b&gt;Quest Completed&lt;/b&gt;&lt;br&gt;+400 XP. Wallet shows ₱450 spent" vertex="1">
+          <mxGeometry height="70" width="240" x="390" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="ed6" edge="1" parent="1" source="m_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="m_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed7" edge="1" parent="1" source="m_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="m_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed8" edge="1" parent="1" source="m_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="m_4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed9" edge="1" parent="1" source="m_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="m_5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed10" edge="1" parent="1" source="m_5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="m_6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed11" edge="1" parent="1" source="m_6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="m_7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4. Post, delete, profile" id="R27A-pJn9AtHLJgbDM6b">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;Post a custom quest&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="START: Open Add Custom Quest" vertex="1">
+          <mxGeometry height="44" width="280" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Fill in title, organizer and description" vertex="1">
+          <mxGeometry height="50" width="280" x="40" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ed1" edge="1" parent="1" source="c0_0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c0_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Choose tier, location, hours, XP. Amount: Free locks at ₱0, Paid = payout, Premium = entry fee" vertex="1">
+          <mxGeometry height="80" width="280" x="40" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="ed2" edge="1" parent="1" source="c0_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c0_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Tap &lt;b&gt;Deploy quest to board&lt;/b&gt;" vertex="1">
+          <mxGeometry height="44" width="280" x="40" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="ed3" edge="1" parent="1" source="c0_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c0_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_4" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rhombus;fillColor=#FCE4EC;strokeColor=#E85480;" value="All required fields filled?" vertex="1">
+          <mxGeometry height="100" width="280" x="40" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="ed4" edge="1" parent="1" source="c0_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c0_4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_5" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Quest added to top of board. Live quest count and total XP update" vertex="1">
+          <mxGeometry height="70" width="280" x="40" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5" edge="1" parent="1" source="c0_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c0_5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_6" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Toast confirms. Page scrolls to the quest board" vertex="1">
+          <mxGeometry height="60" width="280" x="40" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="ed6" edge="1" parent="1" source="c0_5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c0_6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_7" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="END" vertex="1">
+          <mxGeometry height="40" width="280" x="40" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="ed7" edge="1" parent="1" source="c0_6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c0_7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed8" edge="1" parent="1" source="c0_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="c0_1" value="No: browser highlights the empty field">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;Delete and restore a quest&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="370" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="START: Tap ✕ on a quest card" vertex="1">
+          <mxGeometry height="44" width="280" x="370" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Confirm deletion modal opens" vertex="1">
+          <mxGeometry height="50" width="280" x="370" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ed9" edge="1" parent="1" source="c1_0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c1_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rhombus;fillColor=#FCE4EC;strokeColor=#E85480;" value="Delete?" vertex="1">
+          <mxGeometry height="100" width="280" x="370" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="ed10" edge="1" parent="1" source="c1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c1_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Quest leaves the board and moves to the deleted list. Counter +1" vertex="1">
+          <mxGeometry height="70" width="280" x="370" y="392" as="geometry" />
+        </mxCell>
+        <mxCell id="ed11" edge="1" parent="1" source="c1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c1_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_4" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Tap &lt;b&gt;View/Restore Deleted Quests&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="370" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="ed12" edge="1" parent="1" source="c1_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c1_4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_5" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Pick a quest and tap &lt;b&gt;Restore&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="370" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="ed13" edge="1" parent="1" source="c1_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c1_5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_6" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Quest returns to top of board. Counter -1. Toast confirms" vertex="1">
+          <mxGeometry height="70" width="280" x="370" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ed14" edge="1" parent="1" source="c1_5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c1_6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_7" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="END" vertex="1">
+          <mxGeometry height="40" width="280" x="370" y="776" as="geometry" />
+        </mxCell>
+        <mxCell id="ed15" edge="1" parent="1" source="c1_6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c1_7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed16" edge="1" parent="1" source="c1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="c1_7" value="No: quest stays">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;Edit your profile&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="700" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="START: Tap avatar or Edit profile" vertex="1">
+          <mxGeometry height="44" width="280" x="700" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Editor opens with current name, class and avatar" vertex="1">
+          <mxGeometry height="60" width="280" x="700" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ed17" edge="1" parent="1" source="c2_0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c2_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Change name, class and avatar" vertex="1">
+          <mxGeometry height="50" width="280" x="700" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="ed18" edge="1" parent="1" source="c2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c2_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Tap &lt;b&gt;Save&lt;/b&gt;" vertex="1">
+          <mxGeometry height="44" width="280" x="700" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="ed19" edge="1" parent="1" source="c2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c2_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_4" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Profile card updates and is saved in the browser. Toast confirms" vertex="1">
+          <mxGeometry height="70" width="280" x="700" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="ed20" edge="1" parent="1" source="c2_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c2_4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_5" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="END" vertex="1">
+          <mxGeometry height="40" width="280" x="700" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="ed21" edge="1" parent="1" source="c2_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c2_5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;shape=note;size=14;fillColor=#FFF7E0;strokeColor=#F5B942;align=left;spacingLeft=8;verticalAlign=top;" value="&lt;b&gt;Switch theme&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="1030" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_0" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="START: Tap the moon / sun button" vertex="1">
+          <mxGeometry height="44" width="280" x="1030" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Page switches between light and dark mode" vertex="1">
+          <mxGeometry height="60" width="280" x="1030" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ed22" edge="1" parent="1" source="c3_0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c3_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_2" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#4A4E9E;" value="Choice is remembered for the next visit" vertex="1">
+          <mxGeometry height="60" width="280" x="1030" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="ed23" edge="1" parent="1" source="c3_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c3_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_3" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontColor=#211F3D;rounded=1;arcSize=50;fillColor=#34327A;fontColor=#FFFFFF;strokeColor=#34327A;fontStyle=1;" value="END" vertex="1">
+          <mxGeometry height="40" width="280" x="1030" y="362" as="geometry" />
+        </mxCell>
+        <mxCell id="ed24" edge="1" parent="1" source="c3_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#34327A;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="c3_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
